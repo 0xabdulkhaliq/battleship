@@ -33,6 +33,7 @@
 - Built during partial completion of Odin Project's Full-Stack JavaScript Path.
 - Each essential modules like Player, Gameboard, and Ship were meticulously tested before diving into the user interface (UI) development. 
 - This approach ensures a robust foundation, allowing for a smooth and reliable gaming experience.
+- I have additional features to incorporate; however, due to time constraints, I will address them in the future.
 
 <br>
 
