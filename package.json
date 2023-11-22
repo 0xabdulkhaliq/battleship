@@ -1,0 +1,31 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "bundle-js": "npx webpack",
+    "minify-html": "npx html-minifier --input-dir src --output-dir dist --collapse-whitespace --remove-comments --remove-optional-tags --remove-redundant-attributes --remove-script-type-attributes --remove-tag-whitespace --use-short-doctype --file-ext html",
+    "minify-css": "npx css-minify -d ./src -o ./dist && mv ./dist/styles.min.css ./dist/styles.css",
+    "move-favicon": "mv ./src/favicon.svg ./dist",
+    "build": "npm run bundle-js && npm run minify-html && npm run minify-css && npm run move-favicon"
+  },
+  "keywords": [],
+  "author": "0xabdulkhalid",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "babel-jest": "^29.7.0",
+    "css-minify": "^2.0.0",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "html-minifier": "^4.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^2.8.8",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
