@@ -28,6 +28,14 @@
 
 <br>
 
+## Project Overview
+- Battleship project was crafted with the main goal of exploring **Test-Driven Development (TDD)** using **Jest**. 
+- Built during partial completion of Odin Project's Full-Stack JavaScript Path.
+- Each essential modules like Player, Gameboard, and Ship were meticulously tested before diving into the user interface (UI) development. 
+- This approach ensures a robust foundation, allowing for a smooth and reliable gaming experience.
+
+<br>
+
 ## Learn to Play Battleship
 - If you're already familiar with the rules of Battleship, you can skip this section. 
 - However, if you're new to the game or need a quick refresher, you can read the [Game's Manual](https://en.wikipedia.org/wiki/Battleship_(game)) on Wikipedia.
@@ -85,7 +93,7 @@ To set up the Battleship Application locally, follow these steps:
 
 <div align=center>
   
-![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) &nbsp;&nbsp;![Google](https://img.shields.io/badge/google-DA4437?style=for-the-badge&logo=google&logoColor=white) &nbsp;&nbsp;![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) &nbsp;&nbsp;![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white) &nbsp;&nbsp;![Visual Studio Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) &nbsp;&nbsp;![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) &nbsp;&nbsp;![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![NPM](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) &nbsp;&nbsp;![Google](https://img.shields.io/badge/google-DA4437?style=for-the-badge&logo=google&logoColor=white) &nbsp;&nbsp;![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E) &nbsp;&nbsp;![Eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white) &nbsp;&nbsp;![Visual Studio Code](https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) &nbsp;&nbsp;![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) &nbsp;&nbsp;![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) &nbsp;&nbsp;![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white) &nbsp;&nbsp;![Babel](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=black)
 
 </div>
 
