@@ -79,6 +79,18 @@ To set up the Battleship Application locally, follow these steps:
 
 <br>
 
+## Pagespeed Insights Score
+  
+- ||
+  | :-----: |
+  |  <b>Overall Score 99.4%, Average of Mobile and Desktop</b><br>[ Mobile devices score is only shown below ] |
+  | |
+  | <img src='./design/pagespeed-insights-score.svg' alt='Scoreboard'> |
+  | |
+  | Check out [**Pagespeed Insights**](https://pagespeed.web.dev/analysis/https-battleship-0xabdulkhalid-vercel-app/88ptn9rxjc?form_factor=mobile) to get live score |
+  ||
+
+<br>
 
 ## Built With
 
