@@ -120,7 +120,7 @@ a {
 
 body {
   font-family: 'DM Sans', sans-serif;
-  min-height: 100vh;
+  min-height: 100dvh;
   background: var(--olive);
   color: var(--fresh-green);
   display: grid;
@@ -144,7 +144,7 @@ header {
   box-shadow: #0005 0px 7px 20px;
   z-index: 1;
   min-height: 4rem;
-  transition: 0.7s ease;
+  transition: min-height .7s ease;
 }
 
 h1 {
@@ -152,13 +152,13 @@ h1 {
   font-size: 1.5rem;
   position: absolute;
   bottom: 0;
-  transition: 1s cubic-bezier(0.68, -0.1, 0.27, 1.1);
+  transition: transform 1s cubic-bezier(0.68, -0.1, 0.27, 1.1);
   bottom: 1.1rem;
   left: 1.1rem;
 }
 
 .header--active {
-  min-height: 100vh;
+  min-height: 100dvh;
 }
 
 .h1--active {
@@ -173,11 +173,7 @@ h1 {
   top: 0;
   line-height: 1;
   opacity: 0;
-  transition: 1s ease;
-}
-
-.notifier--hidden {
-  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .break {
@@ -293,6 +289,7 @@ footer {
 
   [class*='comp'] .square {
     transition: 0.2s ease;
+    transition-property: box-shadow, transform;
   }
 
   [class*='computer'] .square:hover:not(.hit, .miss) {
