@@ -12,7 +12,7 @@
     "build": "npm run bundle-js && npm run minify-html && npm run minify-css && npm run move-favicon"
   },
   "keywords": [],
-  "author": "0xabdulkhalid",
+  "author": "0xabdulkhaliq",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.23.3",
